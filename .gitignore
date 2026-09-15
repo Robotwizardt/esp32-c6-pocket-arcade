@@ -1,0 +1,13 @@
+build/
+build-host/
+managed_components/
+sdkconfig
+sdkconfig.old
+.vscode/
+
+build-*/
+*.ppm
+__pycache__/
+*.pyc
+.env
+.env.*

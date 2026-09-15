@@ -1,0 +1,9 @@
+## Component Manager manifest for the Waveshare ESP32-C6 Touch AMOLED 2.16 lobby.
+## Versions are intentionally pinned so the board adapter and LVGL API remain reproducible.
+dependencies:
+  espressif/esp_lcd_sh8601: "1.0.0"
+  espressif/esp_lvgl_adapter: "0.3.0"
+  lvgl/lvgl: "9.5.0"
+  waveshare/esp_lcd_touch_cst9217: "1.0.4"
+  idf:
+    version: ">=5.5.0"
